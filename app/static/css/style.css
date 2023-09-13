@@ -1,0 +1,404 @@
+/* https://fonts.google.com/specimen/Roboto+Condensed */
+
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar{
+    display:flex;
+    padding: 10px;
+   
+}
+
+.hello button{
+    border:2px solid #5E17EB ;
+    border-radius:20px;
+    width: 100px;
+    height: 45px;
+    font-size: 18px;
+    color:#5E17EB ;
+    font-weight: 500;
+    margin-left: 900px;
+    margin-top: 8px;
+    background-color: white;
+
+}
+.hello button:hover{
+    background-color: #5E17EB;
+    color: white;
+}
+
+
+.logo img{
+    margin-left: 250px;
+    margin-top: 5px;
+}
+
+.home-img{
+    background:url("/static/images/home.png");
+    background-repeat: no-repeat;
+    background-size:cover; 
+    display: flex;
+    height: 800px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align:start;
+    
+}
+ .home-txt{
+    margin-top: 120px;
+    margin-left: 380px;
+    width: 600px;
+    height: 180px;
+    
+ }
+ .home-txt p{
+    font-size: 18px;
+    font-weight: 500;
+ } 
+ .home-txt a{
+    color:#8c5cec;
+    background-color:white;
+    padding: 10px;
+    border: 3px solid #8c5cec;
+    border-radius: 8px;
+    text-decoration: none;
+
+ }
+ .home-txt a:hover{
+    background-color: #5E17EB;
+    color: white;
+ }
+
+.about{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top:70px;
+    margin-left: 100px;
+    color:black;
+    
+}
+.recent{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.recent p{
+    font-size: 34px;
+    font-weight: 550; 
+}
+.recent span{
+    font-weight: 550 ;
+    font-size: 20px;
+}
+.emailme{
+    color: black;
+    text-decoration: none;
+}
+.recent a:hover{
+    color:#5E17EB;
+    
+}
+
+.cont{
+    width: 400px;
+    height: 300px;
+    display: inline;
+    
+}
+
+.cont img{
+    width: 400px;
+    height: 300px;
+    margin-left: 30px;
+    margin-top: 40px;
+    border-radius: 20px; 
+      
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 300px;
+    margin-left:136px;
+    margin-top: 1057px;
+    border-radius: 20px;
+    background: rgba(8, 7, 45, 0.9); /* Semi-transparent background */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity:0; /* Initially hidden */
+    transition: opacity 0.3s ease-in-out;
+}
+.overlay:hover {
+    opacity: 2; /* Show overlay on hover */
+   
+    
+}
+#button{
+    border: 4px solid #5E17EB;
+    border-radius: 30px;
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+}
+#button:hover{
+    background-color: #5E17EB;
+}
+#ov{
+    margin-left:574px;
+}
+#ove{
+    margin-left:1014px;
+}
+#over{
+    margin-top: 1401px;
+}
+#overl{
+    margin-top: 1401px;
+    margin-left: 574px;
+}
+#overla{
+    margin-top: 1401px;
+    margin-left:1014px;
+}
+.cv-img img{
+    width: 300px;
+    height:300px;
+    border-radius:150px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.cv-img{
+    background-color: #8c5cec;
+    height:1000px;
+    width: 350px;
+    padding: 10px;
+   
+}
+.about-me{
+    margin-left:260px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.me{
+    text-align: center;
+}
+.icons{
+    width: 20px;
+    margin-top: 20px;
+    
+}
+
+.info{
+    display:flex;
+    margin-left:50px;
+    margin-top: 10px;
+    
+}
+.icon-txt{
+    margin-left: 20px;
+    margin-top: 10px;
+  
+}
+
+.icon-txt a{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+.icon-txt a:hover{
+    color: #000000;
+}
+.skills{
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.contact-head{
+    display: flex;
+   
+
+}
+#back{
+    margin-left: 550px;
+    
+    
+}
+
+.contact-head img{
+    margin-left: 650px;
+
+}
+.contact-cont{
+    width: 700px;
+    margin-left: 400px;
+}
+.contact-cont h1{
+    text-align: center;
+
+}
+.box input{
+   width: 200px;
+   height: 35px;
+   font-size: 16px;
+   border-radius: 5px;
+   border: 1px solid rgb(187, 205, 205);
+    
+}
+.box-msg textarea{
+    width: 510px;
+    height:150px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid rgb(187, 205, 205);
+    display: inline-block;
+}
+.boxs{
+    display: flex;
+}
+.box{
+    margin-left: 100px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.box-msg{
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left:100px;
+
+}
+form button{
+    color: #5E17EB;
+    border: 3px solid #5E17EB;
+    padding: 10px;
+    margin-left: 325px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+form button:hover{
+    color: white;
+    background-color: #5E17EB;
+}
+.model{
+    background-color: rgba(59, 223, 59, 0.538);
+    text-align: center;
+    padding: 20px;
+    width: 900px;
+    border-radius: 20px;
+    margin-left: 260px;
+    
+    
+}
+.footer{
+    background-color: #5E17EB;
+    color: white;
+    text-align: center;
+    padding: 100px;
+    height: 200px;
+    margin-top: 80px;
+   
+}
+.co-op{
+   display: flex;
+   background: #120233;
+   color: white;
+   padding: 25px;
+   width: 90%;
+   margin-left: 40px;
+   height: 80px;
+   position: absolute;
+   border-radius: 10px;
+  
+  
+}
+.co-op h4{
+    margin-left: 60px;
+}
+.co-op button{
+    margin-left:60px;
+    height:50px;
+    color:white;
+    border:3px solid #42f406;
+    background-color:#120233;
+    border-radius: 20px;
+    font-weight: 600;
+}
+.co-op button:hover{
+    background-color: #42f406;
+    color: #120233;
+}
+.test-cont{
+   text-align: center;
+   width: 500px;
+   margin-left: 450px;
+   margin-bottom: 60px;
+   margin-top: 50px;
+   font-size: 20px;
+   padding: 30px;
+   
+
+}
+.test-cont img{
+    margin-top: 20px;
+    border-radius: 50%;
+    
+}
+.testinominal{
+   margin-top: 50px;
+   margin-bottom: 20px;
+   text-align: center;
+   height: 600px;
+   padding: 10px;    
+}
+.dot-cont{
+    text-align: center;
+    
+}
+.dot{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.dot:hover{
+    background-color: #717171;
+}
+.drop-down{
+    margin-top: 20px;
+    display: block;
+    margin-left: 60px;
+    font-weight: 600;
+}
+.drop-down label{
+    margin-left: 40px;
+}
+#dropdown{
+    width: 205px;
+    height: 45px;
+    margin-left:40px;
+    border-radius: 3px;
+    border: 1px solid rgb(187, 205, 205);
+}
+#dropdown option{
+    font-size: 18px;
+}
+.dropbox{
+    display: flex;  
+    
+    
+}
+
