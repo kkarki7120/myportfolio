@@ -1,0 +1,128 @@
+{% extends 'base.html'%}
+{%block title%}KUSHAL KARKI{%endblock%}
+{%block nav%}
+<div class="hello">
+            
+    <button type="submit" onclick="contact()">Say hello</button>
+
+</div>
+{%endblock%}
+{% block body %}
+
+    <section class="home">
+        <div class="home-img">
+            <div class="home-txt">
+                <h1>Kushal Karki</h1>
+                <h4>Hi, I'm Kushal. Nice to meet you</h4>
+                <p>I am passionate in full stack web development. </br> I am currently pursuing my web development internship</br> at KSW TECHZONE.</p>
+                <div class="about">
+                    <h1>Want to Know more about me? </h1>
+                    <a href="{% url 'about' %}">Click Me</a>
+               
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="recent">
+            <p>My Recent Works</p>
+            <Span>Here are a few past projects I've worked on. Want to see more?<a href="" class="emailme">  e-mail me.</a></span>
+        
+                <div class="recent-works">
+                    <div class="cont">
+                        <img src="/static/images/img1.png" alt="">
+                        <div class="overlay">
+                            <h2>Image Title</h2>
+                            <p>Image Description</p>
+                            <a href="#" id="button">visit website -></a>
+                        </div>
+                    </div>
+                    <div class="cont">
+                        <img src="images/img2.png" >
+                        <div class="overlay" id="ov">
+                            <h2>Image Title</h2>
+                            <p>Image Description</p>
+                            <a href="#" id="button">visit website -></a>
+                        </div>
+                    </div>
+                    <div class="cont">
+                        <img src="images/img3.png" alt="">
+                        <div class="overlay" id="ove">
+                            <h2>Image Title</h2>
+                            <p>Image Description</p>
+                            <a href="#" id="button">visit website -></a>
+                        </div>
+                    </div>
+                    <div class="cont">
+                        <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg" alt="">
+                        <div class="overlay" id="over">
+                            <h2>Image Title</h2>
+                            <p>Image Description</p>
+                            <a href="#" id="button">visit website -></a>
+                        </div>
+                    </div>
+                    <div class="cont">
+                        <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg" alt="">
+                        <div class="overlay" id="overl">
+                            <h2>Image Title</h2>
+                            <p>Image Description</p>
+                            <a href="#" id="button">visit website -></a>
+                        </div>
+                    </div>
+                    <div class="cont">
+                        <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg" alt="">
+                        <div class="overlay" id="overla">
+                            <h2>Image Title</h2>
+                            <p>Image Description</p>
+                            <a href="#" id="button">visit website -></a>
+                        </div>
+                    </div>
+                </div>
+        
+         </div>
+   
+    <div class="testinominal">
+        <h1>Testinominals</h1>
+        <p>People I have worked with had said something nice about me.<p>
+        <div class="test-cont">
+            <img src="/static/images/kushal__PP.jpg" alt="" width="120px" height="120px">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde enim est alias voluptas neque rem quasi consectetur. Unde veniam debitis sapiente atque magni aspernatur at, vero repudiandae, ab maiores cum!</p>
+        </div>
+        <!-- <div class="test-cont">
+            <img src="/static/images/kushal__PP.jpg" alt="" width="120px" height="120px">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde enim est alias voluptas neque rem quasi consectetur. Unde veniam debitis sapiente atque magni aspernatur at, vero repudiandae, ab maiores cum!</p>
+        </div> <div class="test-cont">
+            <img src="/static/images/kushal__PP.jpg" alt="" width="120px" height="120px">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde enim est alias voluptas neque rem quasi consectetur. Unde veniam debitis sapiente atque magni aspernatur at, vero repudiandae, ab maiores cum!</p>
+        </div> -->
+   
+    <div class="dot-cont">
+        <span class="dot" onclick=" "></span>
+        <span class="dot" onclick=" "></span>
+        <span class="dot" onclick=" "></span>
+    </div>
+</div>
+
+         <div class="co-op">
+            <h2>Start a project</h2> 
+            <h4>Interested in working together? We should queue up a time to chat. I'll buy the coffee.</h4>
+            <button type="submit" onclick="project()">Let's do this</button>
+   
+        </div>       
+
+    
+   
+    <div class="footer">
+        <img src="/static/images/logo_white.png" width="80px" height="80px">
+        <h3>Living, learning, & leveling up one day at a time.</h3>
+
+    </div> 
+
+
+       
+    </section>
+
+    
+
+    
+{%endblock%}
